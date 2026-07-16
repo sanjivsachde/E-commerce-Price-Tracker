@@ -1,6 +1,3 @@
-# E-commerce-Price-Tracker
-A Python automation project that tracks product prices from e-commerce websites, stores historical price data in CSV format, and sends email notifications when the price falls below a target threshold.
-Overview
+# E-commerce Price Tracker
 
-This project automates product price monitoring from e-commerce websites using Python. It periodically scrapes product information, records price history in a CSV file, and sends an email alert whenever the product price drops below a predefined target.
-
+The **E-commerce Price Tracker** is a Python automation project that monitors product prices on e-commerce websites and helps users make informed purchasing decisions. The application periodically scrapes the product's title and current price using the **Requests** and **BeautifulSoup** libraries, stores the collected data in a CSV file for historical tracking, and automatically sends an email notification when the product price falls below a user-defined target. The project demonstrates practical concepts such as web scraping, data extraction, regular expressions for data cleaning, file handling with Pandas, email automation using SMTP, and task scheduling with the Schedule library. By combining these technologies, the application provides a simple yet effective solution for automated price monitoring while showcasing modular programming, exception handling, and automation techniques in Python.
